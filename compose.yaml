@@ -1,0 +1,7 @@
+services:
+  climate:
+    build: .
+    ports:
+      - "127.0.0.1:8100:8100"
+    environment:
+      MODE: simulate
